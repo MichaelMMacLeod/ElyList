@@ -9,12 +9,12 @@
         "default_popup": "popup.html"
     },
 
-    "content_scripts": [
-        {
-            "matches": ["<all_urls>"],
-            "js": ["popup.js"]    
-        }
-    ],
+    // "content_scripts": [
+    //     {
+    //         "matches": ["<all_urls>"],
+    //         "js": ["popup.js"]    
+    //     }
+    // ],
 
     "permissions": [
         "activeTab"
