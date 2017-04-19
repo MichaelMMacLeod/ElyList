@@ -1,18 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>ElyList</title>
         <style>
-            body {
-                font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-                font-size: 100%;
-            }
-            #status {
-                white-space: pre;
-                text-overflow: ellipsis;
-                overflow: hidden;
-                max-width: 400px;
-            }
             #container {
                 position: relative;
             }
@@ -42,15 +32,13 @@
             }
         </style>
     </head>
-
     <body>
         <div id="container">
-            <input type="text", id="input"/>
-            <input type="submit", id="submit", value="Add Task"/>
+            <form id="inputForm">
+                <input type="text", id="input"></input>
+                <input type="submit", id="submit", value="Add Task"></input>
+            </form>
         </div>
-        <div id="canvas_container"></div>
     </body>
-
     <script src="popup.js"></script>
-
 </html>
