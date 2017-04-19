@@ -3,10 +3,10 @@
     <head>
         <title>ElyList</title>
         <style>
-            #container {
+            #inputContainer {
                 position: relative;
             }
-            #input {
+            #inputTextField {
                 position: absolute;
                 left: 0px;
 
@@ -17,7 +17,7 @@
 
                 border: 2px solid black;
             }
-            #submit {
+            #submitButton {
                 position: static;
                 margin-left: 510px;
 
@@ -33,10 +33,19 @@
         </style>
     </head>
     <body>
-        <div id="container">
+        <div id="taskListContainer">
+            <ol id="taskList">
+                <li>Task</li>
+                <li>Task</li>
+                <li>Task</li>
+                <li>Task</li>
+                <li>Task</li>
+            </ol>
+        </div>
+        <div id="inputContainer">
             <form id="inputForm">
-                <input type="text", id="input"></input>
-                <input type="submit", id="submit", value="Add Task"></input>
+                <input type="text", id="inputTextField"></input>
+                <input type="submit", id="submitButton", value="Add Task"></input>
             </form>
         </div>
     </body>
